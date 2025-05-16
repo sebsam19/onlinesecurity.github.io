@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            body {background-color : blue} 
+            .spacing-header {
+                display : flex;
+                justify-content : space-between;
+            }
+            .dbtn {
+                cursor : pointer;
+                color : lightskyblue;
+            }
+            .pagesava {
+                color : white;
+
+            }
+
+            .pagesava a {
+                color : grey;
+            }
+
+            .pagesava a:hover {
+                color : grey;
+            }
+            .pagesava:hover .dropdown-content {
+                display : block;
+            }
+
+        </style>
     <title>
         Security Awareness
     </title>
+    <div class="spacing-header">
+        <h1>
+            Welcome to Online Security Awareness
+        </h1>
+        <div class="menu">
+            <button class="dbtn">
+                Pages
+            </button>
+            <div class="pagesava">
+                <a href="/">Main</a>
+            </div>
+        </div>
+    </div>
     </head>
     <body>
-    <h1>
-        Welcome to Online Security Awareness
-    </h1>
+
     </body>
 </html>
