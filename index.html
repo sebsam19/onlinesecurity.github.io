@@ -15,12 +15,15 @@
                 color : white;
 
             }
+            .dropdown-content {
+                display : none;
+            }
 
-            .pagesava a {
+            .dropdown-content a {
                 color : grey;
             }
 
-            .pagesava a:hover {
+            .dropdown-content a:hover {
                 color : grey;
             }
             .pagesava:hover .dropdown-content {
@@ -28,24 +31,23 @@
             }
 
         </style>
+    </head>
     <title>
         Security Awareness
     </title>
-    <div class="spacing-header">
-        <h1>
-            Welcome to Online Security Awareness
-        </h1>
-        <div class="menu">
-            <button class="dbtn">
-                Pages
-            </button>
+    <body>
+        <div class="spacing-header">
+            <h1>
+                Welcome to Online Security Awareness
+            </h1>
             <div class="pagesava">
-                <a href="/">Main</a>
+                <button class="dbtn">
+                    Pages
+                </button>
+                <div class="dropdown-content">
+                    <a href="/">Main</a>
+                </div>
             </div>
         </div>
-    </div>
-    </head>
-    <body>
-
     </body>
 </html>
